@@ -162,11 +162,13 @@ public class GenericMethods extends PropertiesFileReader {
 		enterText(com.pageobjects.CreateDatasouce.dsUsername, dsUsername);
 		enterText(com.pageobjects.CreateDatasouce.dsPassword, dsPassword);
 		buttonClick(com.pageobjects.CreateDatasouce.dsSaveBtn);	
-		Thread.sleep(propertyFileReader.getImplicitlyWait());
+		//Thread.sleep(propertyFileReader.getImplicitlyWait());
+		datasourceSavePopups();
 		
 	}
 	//Datasource save popups
-	public static void datasourceSavePopups() {
+	public static void datasourceSavePopups() throws InterruptedException {
+		Thread.sleep(1000);
 		driver.switchTo().activeElement();
 		waitForElement(By.xpath(com.pageobjects.CreateDatasouce.popup));
 		String actualPopupText = driver.findElement(By.xpath(com.pageobjects.CreateDatasouce.popup)).getText();
@@ -194,6 +196,9 @@ public class GenericMethods extends PropertiesFileReader {
 		return new SimpleDateFormat("MMddyyyy_HHmmss").format(Calendar.getInstance().getTime());
 	}
 	
+	public static void closeBrowser() {
+		driver.close();
+	}
 	/*public void getExcelValues() throws IOException, InvalidFormatException {
 		List<String> excelValues =new ArrayList<String>();
 		String fileName = "C:\\Users\\raghunath.borra\\Desktop\\TextData123.xls";
@@ -280,4 +285,5 @@ public class GenericMethods extends PropertiesFileReader {
 	*/
 
 
+	
 }

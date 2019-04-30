@@ -63,8 +63,8 @@ public class SendEmails {
 			// Create another object to add another content
 			MimeBodyPart messageBodyPart2 = new MimeBodyPart();
 			// Mention the file which you want to send
-			String file = "E:\\Raghu\\TestNGFrameWorkSample\\sample.testng\\target\\surefire-reports\\emailable-report.html";
-			String fileName="TestNG_Report";
+			String file = "E:\\Raghu\\TestNGFrameWorkSample\\sample.testng\\test-output\\ExploraBIRegressionSuite\\RegressionSuite.html";
+			String fileName="RegressionSuite.html";
 			// Create data source and pass the filename
 			DataSource source = new FileDataSource(file);
 			// set the handler

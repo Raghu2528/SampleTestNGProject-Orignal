@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <parameter name="browser" value="param-val-not-found"/>
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ExploraBIRegressionSuite]" parallel="tests">
+  <test thread-count="5" name="RegressionSuite(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.datasources.DataSourceCreationTestCases">
         <methods>
@@ -12,5 +12,5 @@
         </methods>
       </class> <!-- com.datasources.DataSourceCreationTestCases -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- RegressionSuite(failed) -->
+</suite> <!-- Failed suite [ExploraBIRegressionSuite] -->

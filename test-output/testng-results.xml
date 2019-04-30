@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41123" started-at="2019-04-24T09:36:07Z" finished-at="2019-04-24T09:36:48Z">
+  <suite name="ExploraBIRegressionSuite" duration-ms="45043" started-at="2019-04-30T10:42:05Z" finished-at="2019-04-30T10:42:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41123" started-at="2019-04-24T09:36:07Z" finished-at="2019-04-24T09:36:48Z">
+    <test name="RegressionSuite" duration-ms="45043" started-at="2019-04-30T10:42:05Z" finished-at="2019-04-30T10:42:50Z">
       <class name="com.datasources.DataSourceCreationTestCases">
-        <test-method status="PASS" signature="openBrowserAndLogin()[pri:0, instance:com.datasources.DataSourceCreationTestCases@3e6fa38a]" name="openBrowserAndLogin" is-config="true" duration-ms="14711" started-at="2019-04-24T09:36:07Z" finished-at="2019-04-24T09:36:22Z">
+        <test-method status="PASS" signature="openBrowserAndLogin()[pri:0, instance:com.datasources.DataSourceCreationTestCases@3e6fa38a]" name="openBrowserAndLogin" is-config="true" duration-ms="24233" started-at="2019-04-30T10:42:05Z" finished-at="2019-04-30T10:42:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowserAndLogin -->
-        <test-method status="PASS" signature="createSqlServerDatasource()[pri:0, instance:com.datasources.DataSourceCreationTestCases@3e6fa38a]" name="createSqlServerDatasource" duration-ms="20843" started-at="2019-04-24T09:36:22Z" finished-at="2019-04-24T09:36:43Z">
+        <test-method status="PASS" signature="createSqlServerDatasource()[pri:0, instance:com.datasources.DataSourceCreationTestCases@3e6fa38a]" name="createSqlServerDatasource" duration-ms="20785" started-at="2019-04-30T10:42:29Z" finished-at="2019-04-30T10:42:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createSqlServerDatasource -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.datasources.DataSourceCreationTestCases@3e6fa38a]" name="quitBrowser" is-config="true" duration-ms="5543" started-at="2019-04-24T09:36:43Z" finished-at="2019-04-24T09:36:48Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.datasources.DataSourceCreationTestCases@3e6fa38a]" name="quitBrowser" is-config="true" duration-ms="18407" started-at="2019-04-30T10:42:50Z" finished-at="2019-04-30T10:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.datasources.DataSourceCreationTestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- RegressionSuite -->
+  </suite> <!-- ExploraBIRegressionSuite -->
 </testng-results>
